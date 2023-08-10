@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# CineRanker: Film Review and Rating Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CineRanker is a full-stack web application that empowers users to explore, review, and rate movies. With an intuitive interface, it allows movie enthusiasts to discover trending films, search for favorites, manage watchlists, rate and review movies, and track their viewing history. The application is built using React, Node.js, Tailwind CSS, and integrates external APIs like The Movie Database (TMDb) and MongoDB for data storage.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication:** Securely create accounts and log in for personalized experiences.
+- **Trending Movies:** Discover trending movies on the homepage.
+- **Movie Search:** Search for movies by keywords, titles, or genres.
+- **Watchlist:** Keep track of movies to watch in the future.
+- **Rating and Reviewing:** Provide ratings and in-depth reviews for movies.
+- **Watched Status:** Mark movies as watched or unwatched for better organization.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Front-end:** React, Tailwind CSS
+- **Back-end:** Node.js, Express
+- **Database:** MongoDB with Mongoose
+- **External API:** The Movie Database (TMDb) API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/ena-04/cineranker-app.git`
+2. Navigate to the project directory: `cd cineranker-app`
+3. Install dependencies for both the server and client:
+   - Server: `cd server && npm install`
+   - Client: `cd client && npm install`
+4. Create a `.env` file in the `server` directory with your API keys and MongoDB URI.
+5. Start the server and client:
+   - Server: `cd server && npm start`
+   - Client: `cd client && npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Access the application at `http://localhost:3000`.
+2. Register or log in to your account.
+3. Explore trending movies, search, and manage your watchlist.
+4. Rate, review, and mark movies as watched or unwatched.
+5. Enjoy the interactive movie community!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
